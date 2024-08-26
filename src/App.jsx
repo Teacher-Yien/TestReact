@@ -1,8 +1,8 @@
-import List from "./components/List"
+import Animate from "./components/Animate"
 function App(){
   return(
     <>
-      <List/>
+      <Animate/>
     </>
   )
 }

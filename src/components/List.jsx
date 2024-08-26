@@ -1,10 +1,12 @@
 
-function List(){
+function List(){	
+	const bg={
+		backgroundColor:"red"
+	}
+	const text = "Hello Nana";
 	return(
 		<div className=" container">
-		   <h1>Hello Sis Cute</h1>
-			 <h2>Hello momo</h2>
-			 <img className=" rounded"  src="assets/login.png" alt="" />
+		   <h1 style={bg}>{text}</h1>
 		</div>
 	)
 }
